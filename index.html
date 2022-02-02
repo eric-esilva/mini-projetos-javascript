@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos Javascript (Estudos)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>MINI PROJETOS - VanillaJS</h1>
+        <p>Estudos de JavaScript - EM CONSTRUÇÃO</p>
+
+        <label id="dark-change"></label>
+    </header>
+
+    <main>
+        <section>
+            <article class="container">
+
+                <div class="card">
+                    <div class="card-img">
+                    <img src="img/calc.png" alt="Projeto 'Calculadora'">
+                    </div>                    
+                    <div class="content">
+                        <h2>01</h2>
+                        <h3>Calculadora</h3>
+                        <p>Descrição</p>
+                        <a href="projetos/calculadora/calc.html">Acessar</a>
+                    </div>
+                </div>
+
+            </article>
+        </section>
+    </main>
+
+    <section>
+        <footer>
+            <p>
+                Copyright &copy; 2022
+            </p>
+        </footer>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+        max: 25,
+        speed: 400,
+        glare: true,
+        "max-glare": 0.4,
+        });
+    </script>
+</body>
+</html>
