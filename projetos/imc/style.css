@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fcdc00;
+    text-align: center;
+    margin: 15px;
+}
+
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    padding-bottom: 25px;
+}
+
+header h1 {
+    text-shadow: 2px 2px 5px #fd8802de;
+}
+
+header p {
+    font-size: 1.5vw;
+    font-style: italic;
+}
+
+.btn {
+    font-size: 15px;
+    position: absolute;
+    padding: 10px 8px;
+    width: 100px;
+    left: 25px;
+    top: 25px;
+    color: #fff;
+    background-color: black;
+    border: 1px solid #555;
+    border-radius: 5px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    transition: background 1s;
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+.btn a:visited {
+    color: white;
+  }
+
+.btn:hover {
+    background: rgb(105, 105, 105);
+}
+
+main {
+    background-color: #fff;
+    min-width: 320px;
+    max-width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.527);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #FBAB18;
+    width: 400px;
+    height: 420px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.548);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 50px;
+    font: bold 1.5rem serif;
+    border-bottom: solid 2px black;
+    margin-bottom: 10px;
+}
+
+.input {
+    display: flex;
+    width: 290px;
+    height: 30px;
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input input {
+    width: 220px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+    font: bold 1rem serif;
+    text-align: center;
+}
+
+.input label {
+    font: bold 1rem serif;
+}
+
+button {
+    width: 200px;
+    height: 30px;
+    margin-top: 20px;
+    font: bold 1.2rem serif;
+    background-color: black;
+    color: rgb(219, 219, 0);
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.result {
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    width: 345px;
+    height: 115px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    font: italic 1.2rem serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.548);
+    background-color: black;
+    color: rgb(219, 219, 0);
+    padding: 20px;
+    box-sizing: border-box;
+    user-select: none;
+}
